@@ -163,7 +163,7 @@ text-align:center;
 
 
 /*-----------------everything under here is for screen size above 400px-------------*/
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 800px) {
 
 body { /* settings for body */
 	background-color: #dfdfdf; 
@@ -345,4 +345,7 @@ float:right;
  	background-color: #F6F6F6;
 	margin-top: 10px;
 }
+}
+
+@media (min-width: 448px){
 }
