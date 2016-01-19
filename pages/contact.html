@@ -2,9 +2,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-
-<title>AllStyle Homes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AllStyle Homes - Contact</title>
 <link href="../css/styles.css" rel="stylesheet" type="text/css">
+   <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 </head>
 
 <body>
@@ -41,32 +42,38 @@
 <!--content wrapper for mainbar and sidebar-->
  <div class="contentwrapper">
   <div class="mainbar"> 
- <h3>AllStyle Homes Testimonials </h3>   
-<p>Just what a few of our clients have experienced</p>
- <img  class="TextWrapLeft" src="../images/tomb.png" alt="Client" >
-<p>
-"I just wanted to thank you for the great service that you and your company provided us. I can definitely feel a change in my apartment from the renovation. It was worth the investment for us I think and your contractors provided excellent service. Also, thank you for keeping this within the budget and for consulting with us on any issues that came up. Thanks!” - Tom B</p>
+ <h3>AllStyle Homes Contact Details</h3>  
+<p>Sheree Knox, Business owner / manager<br><br>
  
- <img  class="TextWrap2" src="../images/aaron.png" alt="Client" > 
+  AllStyle Homes<br>
+ 255 Serenity Drive <br>
+Bundaberg QLD 4670 <br>
+Ph: 07 4153 987 <br>
+ Email: <a href="mailto:shereeknox@allstylehomes.com.au&#63;Subject&#61;AllStyle%20Homes" class="links" target="_top">shereeknox@allstylehomes.com.au</a> <br><br>
+ If you would like to contact us via contact form click <a class="links" href="../php/contactform.php">here</a>.
+ <br><br>
+
+Click <a href="../php/signup.php" class="links">here</a> to sign up for AllStyle Homes mail list.
+ </p>
  
+     <div id="map_canvas">
+    
+    
+ <div id="gmap_canvas" >
+
+ </div>
  
-
-
-<p>“The people and staff of AllStyle Homes are the best. Because of these quality people the execution of the project and the needed communications are exemplary. This leaves no doubt there will be nothing but total satisfaction upon completion of any project.”- Aaron R</p>
-<img  class="TextWrapLeft" src="../images/Romo.png" alt="Client" >
-<p>
-
+ <br>
  
-
-"We were most satisfied with their customer service. AllStyle Homes listened carefully to my requirements and asked all of the right questions. They also accommodated everything I asked for during and after the work was completed." 
-<img  class="TextWrap2" src="../images/Jimmy.png" alt="Client" >-Tony R</p> 
-
-
-<p> <br>
- 
-
-"You are absolutely right! The added insulation has done an amazing job at keeping the house cool. Yesterday was a good test.”- Jimmy G</p>
- 
+ <script type="text/javascript"> 
+ function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(-24.8520522,152.39065619999997),mapTypeId: google.maps.MapTypeId.ROADMAP};
+ map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-24.8520522, 152.39065619999997)});
+ infowindow = new google.maps.InfoWindow({content:"<b>AllStyle Homes</b><br/>255 Serenity Drive Bundaberg QLD 4670<br/>4670 Bundaberg " });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+ </script>
+    
+    
+    </div>
+   
   </div>
   
   <div class="sidebar"> <br>
@@ -92,7 +99,7 @@
    
   </div>
  
-   <div class="footer">  <a class="class2" href="privacy.html" >© 2012 AllStyle Homes - Copyright and Privacy Information</a> </div>
+   <div class="footer">  <a href="privacy.html" >© 2012 AllStyle Homes - Copyright and Privacy Information</a> </div>
 
  
 <!--</section>-->
