@@ -160,63 +160,64 @@ img   {
  }
  
 .imagemap .tip1 a {
-	top: -70px;
-	left: 85px;
+	top: 75%;
+	left: 20%;
 	border: 1px solid black;
 	border-top-left-radius: 2em;
 	border-top-right-radius: 2em;
 	border-bottom-right-radius: 2em;
 	border-bottom-left-radius: 2em;
 	padding-top: 1px;
-    position: relative;
- }
+  
+ 	 
+}
  
 .imagemap .tip2 a {
-	top: -420px;
-	left: 685px;
+	top: 10%;
+	left: 80%;
 	border: 1px solid black;
 	border-top-left-radius: 2em;
 	border-top-right-radius: 2em;
 	border-bottom-right-radius: 2em;
 	border-bottom-left-radius: 2em;
 	padding-top: 1px;
-	position: relative;  
+  
 }
  .imagemap .tip3 a {
-	top: -230px;
-	left: 475px;
+	top: 58%;
+	left: 59%;
 	border: 1px solid black;
 	border-top-left-radius: 2em;
 	border-top-right-radius: 2em;
 	border-bottom-right-radius: 2em;
 	border-bottom-left-radius: 2em;
 	padding-top:1px;
-	position: relative;  
+	  
 }
 
 .imagemap .tip4 a {
-	top: -271px;
-	left: 151px;
+	top: 50%;
+	left: 27%;
 	border: 1px solid black;
 	border-top-left-radius: 2em;
 	border-top-right-radius: 2em;
 	border-bottom-right-radius: 2em;
 	border-bottom-left-radius: 2em;
 	padding-top:1px;
-	position: relative;  
+	  
 
 }
 
 .imagemap .tip5 a {
-	top: -229px;
-	left: 278px;
+	top: 64%;
+	left: 40%;
 	border: 1px solid black;
 	border-top-left-radius: 2em;
 	border-top-right-radius: 2em;
 	border-bottom-right-radius: 2em;
 	border-bottom-left-radius: 2em;
 	padding-top:1px;
-	position: relative;  
+	 
 
 }
  
@@ -568,64 +569,64 @@ width:0px;
  }
  
 .imagemap .tip1 a {
-	top: -50px;
-	left: 65px;
+	top: 82%;
+	left: 15%;
 	border: 1px solid black;
 	border-top-left-radius: 2em;
 	border-top-right-radius: 2em;
 	border-bottom-right-radius: 2em;
 	border-bottom-left-radius: 2em;
 	padding-top: 1px;
-position: relative;  
+  
  	 
 }
  
 .imagemap .tip2 a {
-	top: -270px;
-	left: 530px;
+	top: 10%;
+	left: 91%;
 	border: 1px solid black;
 	border-top-left-radius: 2em;
 	border-top-right-radius: 2em;
 	border-bottom-right-radius: 2em;
 	border-bottom-left-radius: 2em;
 	padding-top: 1px;
-	position: relative;  
+  
 }
  .imagemap .tip3 a {
-	top: -190px;
-	left: 365px;
+	top: 60%;
+	left: 63%;
 	border: 1px solid black;
 	border-top-left-radius: 2em;
 	border-top-right-radius: 2em;
 	border-bottom-right-radius: 2em;
 	border-bottom-left-radius: 2em;
 	padding-top:1px;
-	position: relative;  
+	  
 }
 
 .imagemap .tip4 a {
-	top: -221px;
-	left: 111px;
+	top: 54%;
+	left: 20%;
 	border: 1px solid black;
 	border-top-left-radius: 2em;
 	border-top-right-radius: 2em;
 	border-bottom-right-radius: 2em;
 	border-bottom-left-radius: 2em;
 	padding-top:1px;
-	position: relative;  
+	  
 
 }
 
 .imagemap .tip5 a {
-	top: -179px;
-	left: 211px;
+	top: 64%;
+	left: 36%;
 	border: 1px solid black;
 	border-top-left-radius: 2em;
 	border-top-right-radius: 2em;
 	border-bottom-right-radius: 2em;
 	border-bottom-left-radius: 2em;
 	padding-top:1px;
-	position: relative;  
+	 
 
 }
  
@@ -1093,7 +1094,17 @@ color: #b40c00;
 text-decoration:underline;
 }
 	
-	
+.imagemap .tip1 a {
+	top: 80%;
+	left: 12%;
+	border: 1px solid black;
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	padding-top: 1px;
+  
+}	 
 }
 
 @media (max-width: 340px){
@@ -1194,6 +1205,8 @@ line-height: 10px;
 text-decoration: none;
 font-size: 0.5rem;
 }	
+
+
 	
 }
 
@@ -1206,17 +1219,70 @@ line-height: 10px;
 text-decoration: none;
 font-size: 0.8rem;
 }
+
+/*landscaping to all outside areas is just part of our standard package.*/
 .imagemap .tip1 a {
-	top: -50px;
-	left: 65px;
+	top: 80%;
+	left: 12%;
 	border: 1px solid black;
 	border-top-left-radius: 2em;
 	border-top-right-radius: 2em;
 	border-bottom-right-radius: 2em;
 	border-bottom-left-radius: 2em;
 	padding-top: 1px;
-position: relative;  
+  
  	 
+}
+ /*A wipe range of additional features are avialable including a cosy fireplace.*/
+.imagemap .tip2 a {
+	top: 10%;
+	left: 90%;
+	border: 1px solid black;
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	padding-top: 1px;
+  
+}
+
+/*A quality water tank is just one of our many standard inclusions.*/
+ .imagemap .tip3 a {
+	top: 52%;
+	left: 63%;
+	border: 1px solid black;
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	padding-top:1px;
+	  
+}
+/*We use only the highest quality Australian building products.*/
+.imagemap .tip4 a {
+	top: 50%;
+	left: 20%;
+	border: 1px solid black;
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	padding-top:1px;
+	  
+
+}
+/*Quality fittings and fixtures throughout are standard features in all our homes.*/
+.imagemap .tip5 a {
+	top: 60%;
+	left: 37%;
+	border: 1px solid black;
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	padding-top:1px;
+	 
+
 }
  	
 }
@@ -1254,5 +1320,29 @@ color: #b40c00;
 line-height: 10px;
 text-decoration: none;
 font-size: 0.5rem;
+}
+.imagemap .tip1 a {
+	top: 75%;
+	left: 10%;
+	border: 1px solid black;
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	padding-top: 1px;
+ 	 
+}
+/*Quality fittings and fixtures throughout are standard features in all our homes.*/
+.imagemap .tip5 a {
+	top: 58%;
+	left: 35%;
+	border: 1px solid black;
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	padding-top:1px;
+	 
+
 }
 }
