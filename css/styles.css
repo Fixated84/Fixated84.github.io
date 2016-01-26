@@ -276,7 +276,8 @@ a.hovertext {
   opacity: 1.0;
   }
   a.hovertext:after {
-    content: attr(title1);
+    content: attr(title1);  
+   /*  content: " (' attr(title1) ') ";*/
     position: absolute;
     left: 0;
     bottom: 0;
@@ -360,6 +361,23 @@ p{
 font-size: 0.8em;
 font-family: Verdana, Arial, Helvetica, sans-serif; 
 }
+
+ 
+h1 {/* settings for headings 1 */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em ; 
+	letter-spacing: -2px;
+	color: #b40c00 ; 
+	font-weight:bold; 
+	text-decoration:underline; 
+	 
+}
+h2 {/* settings for headings 2 */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.9em ; 
+ 	color: #b40c00 ; 
+	font-weight:bold;
+ }
 
 h3 {/* settings for headings 3 */
 	font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -501,7 +519,7 @@ padding-bottom:10px;
  .footer a:visited {
 	text-decoration:none;
 	color:#e86600;
-	ont-size: 0.7rem;
+	font-size: 0.7rem;
  }
  
   .footer a:hover {
@@ -512,7 +530,7 @@ padding-bottom:10px;
   .footer a:hover {
 	 
 	color:#b40c00;
-	ont-size: 0.7rem;
+	font-size: 0.7rem;
  }	
 	
  
@@ -722,7 +740,8 @@ a.hovertext {
   opacity: 1.0;
   }
   a.hovertext:after {
-    content: attr(title1);
+    content: attr(title1); 
+ /*  content: " (' attr(title1) ') ";*/
     position: absolute;
     left: 0;
     bottom: 0;
